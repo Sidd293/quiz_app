@@ -29,7 +29,7 @@ ge[2] = loadImage('ge/ge3.png')
 ge[3] = loadImage('ge/ge4.png')
 ge[4] = loadImage('ge/ge5.png')
 ge[5] = loadImage('ge/ge6.png')
-  
+ snd = loadSound('Yeah.mp3') 
   
   
 }
@@ -125,6 +125,7 @@ function draw() {
    q++
    i = 255
     sco = sco+10
+  snd.play()
   }
    for(var j=0;j<6;j++)
 {image(hrtb,0+j*100,hrty,50,50)
