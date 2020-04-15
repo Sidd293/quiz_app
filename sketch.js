@@ -37,7 +37,7 @@ ge[5] = loadImage('ge/ge6.png')
 var paragraph
 
 function setup() {
-  createCanvas(600, 450);
+  createCanvas(1200, 900);
 inpt= createInput('type your answer')
 que[0] = "Which is the most populous city in INDIA"
 que[1] = "Name the first mughal ruler of india"
