@@ -96,7 +96,7 @@ function draw() {
   
   if(i!=0)
   fill(i)
-  text(que[q],0,140)         
+  text(que[q],0,135)         
    i--; 
   fill(0)
   textSize(64)
