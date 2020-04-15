@@ -82,9 +82,10 @@ sp=70
 
 
 function draw() {
+  scale(2)
   background(255);
  image(bg,0,0,width,height)
-  rect(0,120,width,30)
+  rect(0,120,2*width,30)
   rect(200,50,width/3-20,25)
  //rect(180,150,width/3+40,300)
   fill(255)
