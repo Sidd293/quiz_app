@@ -101,13 +101,13 @@ function draw() {
   fill(0)
   textSize(64)
   rectMode(CENTER)
- image(hrtb,40-40,220+40,180,180)
-  image(hrtb,380+40,220+40,180,180)
+ image(hrtb,40-40,220+40-50,180,180)
+  image(hrtb,0,220+40+150,180,180)
       
 
- image(ge[0+sc],80-40,220+40,100,150)
+ image(ge[0+sc],80-40,220+40-50,100,150)
   textSize(32)
-  text("score is"+sco,420+20,220+130)
+  text("score is"+sco,20,500)
   // image(ge[5],420+40,220+40,100,150)
   image(bbl,bblx,bbly,60,60)
   
