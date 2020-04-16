@@ -49,15 +49,15 @@ que[6] = "What is the capital of FINLAND"
 que[7] = "in which city did COVID-19 started"
 que[8] = "Did you enjoyed the quiz?"
   
-ans[0] = "mumbai"
-ans[1] = "babur"
-ans[2] = "polo"
-ans[3] = "22"  
-ans[4] = "1914"
-ans[5] = "cynophobia"  
-ans[6] = "helsinki"
-ans[7] = "Wuhan"
-ans[8] = "yes"  
+ans[0] = " mumbai"
+ans[1] = " babur"
+ans[2] = " polo"
+ans[3] = " 22"  
+ans[4] = " 1914"
+ans[5] = " cynophobia"  
+ans[6] = " helsinki"
+ans[7] = " wuhan"
+ans[8] = " yes"  
 }
 let bbly =450
 let hrty =-60
@@ -119,7 +119,7 @@ function draw() {
   textSize(28)
   fill(0)
   text(inpt.value(),205,70) 
-  if(inpt.value() == ans[q] &&hrty!=449 )
+  if(" "+inpt.value() == ans[q] &&hrty!=449 )
   {sc = 4
   hrty=450
    q++
