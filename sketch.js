@@ -126,6 +126,7 @@ function draw() {
    i = 255
     sco = sco+10
   snd.play()
+h=0
   }
    for(var j=0;j<6;j++)
 {image(hrtb,0+j*100,hrty,50,50)
