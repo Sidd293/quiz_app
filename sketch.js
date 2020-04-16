@@ -71,7 +71,7 @@ function mousePressed()
 
 function mouseReleased()
 {
-  if(mouseY<450)
+  if(mouseY<600)
   {
     sp=70
   }
