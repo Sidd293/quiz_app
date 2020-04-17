@@ -17,6 +17,7 @@ var q=0
 var f = 0
 sco = 0
 var h =0
+gue =""
 
 function preload()
 {
@@ -143,7 +144,7 @@ pop()
     sco = sco+10
   snd.play()
 h=0
-//gue=" "
+gue=""
   }
    for(var j=0;j<6;j++)
 {image(hrtb,0+j*100,hrty,50,50)
@@ -189,7 +190,7 @@ h=0
     if(f<3)
     sc++
   console.log(f)
-//gue+=and[q][h]
+gue+=ans[q][h]
   
   }
   fill(0)
