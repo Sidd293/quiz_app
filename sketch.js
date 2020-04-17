@@ -81,7 +81,7 @@ function mouseReleased()
 {
   if(mouseY<600)
   {
-    sp=90
+    sp=40
   }
    if(f <3)
   {
@@ -165,7 +165,7 @@ h=0
   yp = yp+sp*sin(radians(tht-45))
 
   if(sp>0)
-  sp-=.8
+  sp-=.5
    if(yp+400<0 || yp+400>height||xp+200<0||xp+200>width)
    {xp=0
    yp=0
