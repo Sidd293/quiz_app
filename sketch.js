@@ -166,7 +166,7 @@ h=0
 
   if(sp>0)
   sp-=.5
-   if(yp+400<0 || yp+400>height||xp+200<0||xp+200>width)
+   if(yp+550<0 || yp+550>height||xp+20<0||xp+20>width)
    {xp=0
    yp=0
     sp=0
