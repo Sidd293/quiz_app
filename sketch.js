@@ -110,8 +110,11 @@ function draw() {
   fill(0)
   textSize(64)
   rectMode(CENTER)
+ push()
+ scale(.5)
  image(hrtb,40-40,220+40-50,180,180)
-  image(hrtb,0,220+40+150,180,180)
+ pop() 
+ image(hrtb,0,220+40+150,180,180)
       
 
  image(ge[0+sc],80-40,220+40-50,100,150)
