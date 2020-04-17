@@ -113,7 +113,7 @@ function draw() {
  push()
  scale(.5)
  image(hrtb,40-40,220+40-50,180,180)
- pop() 
+ 
  image(hrtb,0,220+40+150,180,180)
       
 
@@ -122,7 +122,7 @@ function draw() {
   text("score is"+sco,20,500)
   // image(ge[5],420+40,220+40,100,150)
   image(bbl,bblx,bbly,60,60)
-  
+  pop()
   if(bbly<60)
   {bbly=height}
   bbly--
@@ -152,7 +152,7 @@ h=0
   var tht = map(mouseY,0,360,0,450)
    push()
   
-   translate(xp+200,yp+400)
+   translate(xp+20,yp+400)
   rotate(radians(tht))
   rectMode(CENTER)
   
