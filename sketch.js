@@ -39,7 +39,11 @@ var paragraph
 
 function setup() {
   createCanvas(450, 600);
+btn=createButton('skip question')
+
 inpt= createInput('type your answer')
+inpt.position(0,0)
+inpt.mousePressed(quest)
 que[0] = "Which is the most populous city in INDIA"
 que[1] = "Name the first mughal ruler of india"
 que[2] = "Ezra cup is related to which sport"
@@ -63,7 +67,10 @@ ans[8] = " yes"
 let bbly =450
 let hrty =-60
 
-
+function quest()
+{q++
+sco-=2
+}
 function mousePressed()
 {
 
