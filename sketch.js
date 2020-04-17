@@ -70,6 +70,7 @@ let hrty =-60
 function quest()
 {q++
 sco-=2
+h=0
 }
 function mousePressed()
 {
