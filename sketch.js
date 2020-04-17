@@ -97,7 +97,7 @@ function mouseReleased()
 function draw() {
   background(255);
  image(bg,0,0,width,height)
-text("guess"+gue,0,40)
+text("clue-["+gue+"]",0,40)
   rect(0,120,2*width,30)
   rect(105,70,width/3-20,25)
  //rect(180,150,width/3+40,300)
