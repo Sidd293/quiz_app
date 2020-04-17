@@ -43,7 +43,7 @@ btn=createButton('skip question')
 
 inpt= createInput('type your answer')
 //inpt.position(0,0)
-inpt.mousePressed(quest)
+inpt.mousePressed(q++)
 que[0] = "Which is the most populous city in INDIA"
 que[1] = "Name the first mughal ruler of india"
 que[2] = "Ezra cup is related to which sport"
