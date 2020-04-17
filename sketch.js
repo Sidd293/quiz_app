@@ -17,6 +17,7 @@ var q=0
 var f = 0
 sco = 0
 var h =0
+gue=[]
 function preload()
 {
 bg = loadImage('bg.jpeg')
@@ -87,6 +88,7 @@ function mouseReleased()
 function draw() {
   background(255);
  image(bg,0,0,width,height)
+text("guess"+gue,0,0)
   rect(0,120,2*width,30)
   rect(200,50,width/3-20,25)
  //rect(180,150,width/3+40,300)
@@ -127,6 +129,7 @@ function draw() {
     sco = sco+10
   snd.play()
 h=0
+gue=" "
   }
    for(var j=0;j<6;j++)
 {image(hrtb,0+j*100,hrty,50,50)
@@ -172,6 +175,7 @@ sco--
     if(f<3)
     sc++
   console.log(f)
+gue+=and[q][h]
   
   }
   fill(0)
