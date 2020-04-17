@@ -38,7 +38,7 @@ ge[5] = loadImage('ge/ge6.png')
 var paragraph
 
 function setup() {
-  createCanvas(450, 600);
+  createCanvas(420, 600);
 btn=createButton('skip question')
 
 inpt= createInput('type your answer')
@@ -81,7 +81,7 @@ function mouseReleased()
 {
   if(mouseY<600)
   {
-    sp=70
+    sp=90
   }
    if(f <3)
   {
@@ -97,10 +97,10 @@ function draw() {
  image(bg,0,0,width,height)
 //text("guess"+gue,0,0)
   rect(0,120,2*width,30)
-  rect(200,50,width/3-20,25)
+  rect(105,70,width/3-20,25)
  //rect(180,150,width/3+40,300)
   fill(255)
-  textSize(28)
+  textSize(20)
   rect(0,120,width,30)
   
   if(i!=0)
@@ -133,7 +133,7 @@ pop()
   fill(255)
   textSize(28)
   fill(0)
-  text(inpt.value(),205,70) 
+  text(inpt.value(),105,70) 
   if(" "+inpt.value() == ans[q] &&hrty!=449 )
   {sc = 4
   hrty=450
@@ -165,7 +165,7 @@ h=0
   yp = yp+sp*sin(radians(tht-45))
 
   if(sp>0)
-  sp--
+  sp-=.8
    if(yp+400<0 || yp+400>height||xp+200<0||xp+200>width)
    {xp=0
    yp=0
@@ -178,7 +178,7 @@ h=0
    r=bblx
    t = bbly
   bbly = 450
- bblx=random(200,400)
+ bblx=random(100,300)
     xp=0
    yp=0
     sp=0
