@@ -173,7 +173,7 @@ h=0
 
    }
   
-  if((yp+400-bbly-30)*(yp+400-bbly-30)+(xp+200-bblx-30)*(xp+200-bblx-30)<30*30)
+  if((yp+550-bbly-30)*(yp+550-bbly-30)+(xp+20-bblx-30)*(xp+20-bblx-30)<30*30)
   {
    r=bblx
    t = bbly
