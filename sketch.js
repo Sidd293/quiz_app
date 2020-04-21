@@ -32,7 +32,7 @@ ge[3] = loadImage('ge/ge4.png')
 ge[4] = loadImage('ge/ge5.png')
 ge[5] = loadImage('ge/ge6.png')
  snd = loadSound('Yeah.mp3') 
-  loadJSON('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple',gdata)
+  loadJSON('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple',gdata)
    
   
 }
