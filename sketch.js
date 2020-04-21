@@ -197,12 +197,12 @@ gue=""
     if(f<3)
     sc++
   console.log(f)
-gue+=ans[q][h]
+gue+=ans[q][h-1]
   
   }
   fill(0)
   
- text(ans[q][h],r,t) 
+ text(ans[q][h-1],r,t) 
  fill(225) 
 }
 function newText()
