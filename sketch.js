@@ -109,7 +109,7 @@ text("clue-["+gue+"]",0,40)
   rect(105,70,width/3-20,25)
  //rect(180,150,width/3+40,300)
   fill(255)
-  textSize(20)
+  textSize(12)
   rect(0,120,width,30)
   
   if(i!=0)
