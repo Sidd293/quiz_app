@@ -40,7 +40,7 @@ ge[5] = loadImage('ge/ge6.png')
 var paragraph
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(windowWidth,windowHeight-.1*windowHeight);
 btn=createButton('skip question')
 
 inpt= createInput('type your answer')
