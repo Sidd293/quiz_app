@@ -40,31 +40,13 @@ ge[5] = loadImage('ge/ge6.png')
 var paragraph
 
 function setup() {
-  createCanvas(420, 600);
+  createCanvas(windowWidth,windowHeight);
 btn=createButton('skip question')
 
 inpt= createInput('type your answer')
 //inpt.position(0,0)
 btn.mousePressed(quest)
-// que[0] = "Which is the most populous city in INDIA"
-// que[1] = "Name the first mughal ruler of india"
-// que[2] = "Ezra cup is related to which sport"
-// que[3] = "How many parts are ther in our constitution(in digits)"  
-// que[4] = "When did world war I start(DIGITS ONLY)"
-// que[5] = "One word for 'fear of dogs'"  
-// que[6] = "What is the capital of FINLAND"
-// que[7] = "in which city did COVID-19 started"
-// que[8] = "Did you enjoyed the quiz?"
-  
-// ans[0] = " mumbai"
-// ans[1] = " babur"
-// ans[2] = " polo"
-// ans[3] = " 22"  
-// ans[4] = " 1914"
-// ans[5] = " cynophobia"  
-// ans[6] = " helsinki"
-// ans[7] = " wuhan"
-// ans[8] = " yes"  
+
 }
 function gdata(data)
 { for (var i = 0 ;i<9;i++)
